@@ -60,13 +60,13 @@ const List = () => {
             <section
                 className={`w-full flex items-end space-x-7 bg-gradient-to-b to-black h-80 text-white p-8 ${color}`}
             >
-                <div className="relative h-44 w-44 shadow-2xl">
+                <div className="relative h-20 w-20 sm:h-44 sm:w-44 shadow-2xl">
                     <div
                         className="w-[100%] h-[100%] absolute top-0 left-0  animate-pulse
                     from-black bg-gradient-to-r to-gray-600"
                     ></div>
                     <img
-                        className="mw-100 mh-100 absolute top-0 left-0"
+                        className="w-43 w-43 mw-[100%] mh-[100%] absolute top-0 left-0"
                         src={playlist?.images?.[0].url}
                         alt=""
                     />
